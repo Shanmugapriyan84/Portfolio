@@ -1,0 +1,60 @@
+body {
+    background-image: url("jhj.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* nav colour*/
+.nav .nav-item a{
+    color: white;
+    font-size: 20px;
+} 
+/* nav hiver eff for lg md */
+.nav .nav-item a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+/*  nav hover effect md , sm */
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: lightgrey;
+    color: black;
+}
+/* img size */
+.rounded-circle{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    
+}
+#fotimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+#footele > img {
+    margin: 30px;
+    padding: 10px;
+    
+}
+/* img size for sm , xsm*/
+@media (max-width : 765px){
+    .rounded-circle{
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+        margin-left: 55px;
+    }
+    #footele > img {
+        margin: 0px;
+        padding: 10px;
+    }  
+    #fotimg{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    #conclass{
+        margin-top: -70px
+    }
+}
